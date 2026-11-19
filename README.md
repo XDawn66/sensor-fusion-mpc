@@ -9,6 +9,12 @@ Noisy GPS + velocity sensor -> Kalman filter -> estimated state
                          vehicle motion <- acceleration <- MPC
 ```
 
+## Demo
+
+![Sensor fusion and MPC simulation showing route tracking, GPS-corrected state estimates, and position error](demo/sensor-fusion-mpc.gif)
+
+Recorded using the sequence-search MPC controller. The optimization-based controller is described below.
+
 ## Project evolution
 
 ### Version 1 - Sensor simulation
