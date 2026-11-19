@@ -1,0 +1,3 @@
+# Dependencies for running the optimization-based MPC controller.
+-r requirements.txt
+scipy>=1.11,<2
